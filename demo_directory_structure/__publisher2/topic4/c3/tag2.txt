@@ -1,0 +1,4 @@
+teacher
+doctor
+engineer
+programmer
