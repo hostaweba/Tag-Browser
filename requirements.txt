@@ -20,6 +20,8 @@ setuptools==80.9.0			#- PyInstaller
 shiboken6==6.9.1		#- PySide6
 six==1.17.0				#- PyInstaller
 
+# (matplotlib) Installing collected packages: six, pyparsing, pillow, packaging, numpy, kiwisolver, fonttools, cycler, python-dateutil, contourpy, matplotlib
+
 #- matplotlib requires cycler, fonttools, kiwisolver, numpy, packaging, pyparsing, and python-dateutil to function properly.
 
 #- PyInstaller uses altgraph, pefile, pywin32-ctypes, and pyinstaller-hooks-contrib.
@@ -34,4 +36,4 @@ six==1.17.0				#- PyInstaller
 # PySide6==6.9.1	
 # matplotlib==3.10.3	
 
-
+#python 3.12.4
