@@ -1,0 +1,63 @@
+---------
+main.py
+---------
+--> Modules.tag_browser --> tagBrowser
+def read_root_dir():
+def set_dark_palette(app):
+def main()
+
+----------------
+tag_browser.py
+----------------
+--> Modules.tag_editor --> TagEditor
+--> Modules.utils --> load_tags, save_tags, open_folder
+--> Modules.statistics --> StatisticsViewer
+class TagBrowser(qMainWindow):
+    def __init__(self, root_dir):
+    def setup_ui(self):
+    def make_section(self, title, search_box, list_widget):
+    def connect_signals(self):
+    def load_initial_data(self):
+    def load_publishers(self):
+    def load_topics(self, item):
+    def load_chapters(self, item):
+    def load_all_tags(self):
+    def global_search(self, text):
+    def filter_publishers(self, text):
+    def filter_topics(self, text):
+    def filter_chapters(self, text):
+    def filter_tags(self, text):
+    def filter_by_tag(self, item):
+    def open_selected(self, list_widget):
+    def edit_tags(self, list_widget, pos):
+    def export_tags(self):
+    def -->_tags(self, overwrite=True):
+    def clear_all_tags(self):
+    def update_list(self, list_widget, items):
+    def update_tag_list(self):
+
+--------------
+tag_editor.py
+--------------
+--> Modules.utils --> load_tags, save_tags
+class TagEditor(QDialog):
+    def __init__(self, tag_file, parent=None):
+    def accept(self):
+
+---------
+utils.py
+---------
+def load_tags(tag_file):
+def save_tags(tag_file, tags):
+def open_folder(path):
+
+
+----------------
+statistics.py
+----------------
+class StatisticsViewer(QDialog)
+    def __init__(self, stats, parent=None):
+    def make_table_tab(self, data_dict, col1_name, col2_name):
+        def filter_table(text):
+    def make_chart_tab(self, data_dict, title, kind="bar", top_n=None):
+

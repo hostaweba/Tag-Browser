@@ -1,0 +1,8 @@
+Path,Tags
+__publisher\topic4,tag2
+__publisher\topic4\c1,tag2
+__publisher\topic5\c1,"tag2, tag3, tag4, tag5"
+__publisher2\topic,1.tag
+__publisher2\topic2,tag1
+__publisher2\topic4\c2,tag2
+__publisher2\topic4\c3,tag1
