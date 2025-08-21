@@ -21,9 +21,9 @@ class TagBrowser(QMainWindow):
         self.tag_cache = {}  # Maps relative paths to their tag lists
 
         # === Window setup ===
-        self.setWindowTitle("Advanced Tag Browser")
+        self.setWindowTitle("Tag Browser")
         self.resize(1200, 700)
-        self.setWindowIcon(QIcon("recources/icon2.png"))
+        self.setWindowIcon(QIcon("resources/icon2.png"))
 
         # === Search boxes ===
         self.global_search_box = QLineEdit()
